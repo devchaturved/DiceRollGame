@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceRollGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="newgame">🔃 New game</button>
+    <div class="main" id="head">
+        <!-- <button id="newgame">🔃 New game</button> -->
+        <div class="box" id="leftbox">
+            <h1 id="player1">
+                Player 1
+            </h1>
+            <img src="./image/dice-1.png" alt="reloding"id="image" class="hidden">
+            <p id="finalscore1">0</p>
+            <h2>Score</h2>
+            <p id="score1">0</p>
+            <button class="roll" id="roll1">🎲 Roll</button>
+            <button class="hold" id="hold1">🕹️ Hold</button>
+
+        </div>
+        <div class="box" id="rightbox">
+            <h1 id="player2">
+                Player 2
+            </h1>
+            <!-- <img src="./image/dice-1.png" alt="reloding" id="image2"> -->
+            <p id="finalscore2">0</p>
+            <h2>Score</h2>
+            <p id="score2">0</p>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
